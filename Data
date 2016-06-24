@@ -34,6 +34,7 @@ OS details: Linux 2.6.32 - 3.10, Linux 3.2 - 3.10
 
 53/tcp   open  domain   MikroTik RouterOS named or OpenDNS Updater
 80/tcp   open  http     -nginx
+8080     open  http_proxy
 SSL -> CLoudFlare Nginx
 
 http://104.20.31.59/cfg?page=dhcp_server | Error 1003
