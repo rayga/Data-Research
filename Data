@@ -48,6 +48,8 @@ http://revolusimental.go.id/ajax/modal-dialog.html?id=id=%22%20onmouseover%3dpro
 https://www.exploit-db.com/exploits/14814/
 http://0day.today/exploit/14601
 
+nmap -T4 -A -v sambung.in -> ssh (proto 2.0), https (nginx 1.4.6), http
+
 
 
 
