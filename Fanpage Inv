@@ -1,3 +1,10 @@
+Invite to Fanpage
 javascript:var inputs = document.getElementsByClassName('uiButton _1sm'); for(var i=0; i<inputs.length;i++) { inputs[i].click(); }
 
 setInterval(function() { var connectBtns = document.getElementsByClassName('bt-request-buffed'); for(var i =0; i < connectBtns.length; i++) { console.log(connectBtns[i].title.split("Connect with ")[1]);connectBtns[i].click()}}, 500);
+
+Invite Friends That appear in Timeline
+javascript:var inputs = document.getElementsByClassName('_42ft _4jy0 _4jy3 _517h _51sy'); for(var i=0; i<inputs.length;i++) { inputs[i].click(); }
+
+Invite Friends That appear in Timeline - See All
+javascript:var inputs = document.getElementsByClassName('_42ft _4jy0 FriendRequestAdd addButton _4jy3 _4jy1 selected _51sy'); for(var i=0; i<inputs.length;i++) { inputs[i].click(); }
